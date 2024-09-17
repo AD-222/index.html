@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aicha's Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio24.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Aicha's Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello there!</h3>
+        <h1>My name is Aicha D.</h1>
+        <h3>And I am  <span class="multiple-text"></span></h3>
+        <p>
+          A creative thinker who always pushes themselves to think outside the box. A dedicated professional with extensive experience working with people. A highly effective communicator with good problem-solving skills. Great logical thinker. Self-motivated and open to learning new skills. Currently looking for a new role where skills and experiences can be utilized.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/aicha-d-958899282/"><i class='bx bxl-linkedin-square'></i></a>
+          <a href="https://github.com/AichaxDiallo/portfolio-projects"><i class='bx bxl-github'></i></a>
+        </div>
+        <a href="A.D swe.pdf" class="btn">Download My CV</a>
+      </div>
+      <div class="home-img">
+        <img src="1eb32d53-d97a-435a-b3e7-359c90bf19c2.jpeg" alt="Aicha's Image">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="AD.jpg" alt="About Image">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          I have been accepted into Runshaw College's adult learning program for Level 3 Software Development which is equivalent to 2 A levels BTEC. This year-long course, offered in partnership with Code Institute, will cover Project Management (Agile, Waterfall, and Scrum), Programming Implementation, JavaScript, Robot Technology, Maths for Computing, Software Testing, and Object-Oriented Programming. I will study part-time during evenings and weekends.
+          Runshaw College is consistently ranked in the top 5% of colleges in England, and Code Institute is credit-rated by the University of the West of Scotland. <br>
+          In 2023, I completed a 12-week intensive Software Development Bootcamp where I built a portfolio and personal projects. I delved into HTML, JavaScript, CSS, SQL, Python, system development lifecycle & methodologies, and database design, Git and Github, I also learnt a lot about React JS and Node JS by joining the Odin Project . This experience enabled me to confidently apply for Runshaw College's program.
+          I also hold a Level 1 Diploma and Certificate in Digital Contact Centre and a Level 2 Certificate in Customer Service, which helped enhance my customer service and soft skills.
+        </p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <video controls src="SignupandSigninform.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Sign in and Sign up form</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <video controls src="taskmng.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Task Management App</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <video controls src="data.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Data Visualisation</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <video controls src="AddtoCart.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Add To Cart Bridal store</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <video controls src="DigitalClock.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Digital Clock</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <video controls src="Weatherapp.webm"></video>
+          <div class="portfolio-details">
+            <h4>Frontend Dev</h4>
+            <p>Weather App using API</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="/submit-contact" method="post">
+        <input type="text" name="fullName" placeholder="Full Name" required>
+        <input type="email" name="emailAddress" placeholder="Email Address" required>
+        <input type="tel" name="mobileNumber" placeholder="Mobile Number">
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2024 by Aicha Diallo | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="portfolio24.js"></script>
+  </body>
+</html>
